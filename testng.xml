@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Grid" >
+		<test verbose="10" thread-count="5" name="Test Node1" annotations="JDK">
+			<classes>
+				<class name="Academy.Node1" />
+			</classes>
+		</test>
+</suite>
