@@ -31,14 +31,86 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Test Node1</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">14.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test Node1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">1.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Test Node1 &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">Academy.Node1</td><td><a href="#m1"><b>f</b>  </a></td><td class="numi">1</td><td>1604740179807</td><td class="numi">14697</td></tr>
+<tr><th colspan="4">Test Node1 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Academy.Node1</td><td><a href="#m1"><b>f</b>  </a></td><td class="numi">1</td><td>1604915315869</td><td class="numi">1283</td></tr>
 </table>
 <h1>Test Node1</h1>
 <h2 id="m1">Academy.Node1:f</h2>
+<div style="padding-left:3em">
+<p>Error forwarding the new session cannot find : Capabilities {browserName: chrome, platform: WINDOWS, version: }
+Command duration or timeout: 612 milliseconds</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+<br/>at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+<br/>at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+<br/>at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+<br/>at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+<br/>at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+<br/>at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+<br/>at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+<br/>at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+<br/>at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+<br/>at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+<br/>at Academy.Node1.f(Node1.java:26)
+<br/>28 lines not shown
+<p>Caused by Error forwarding the new session cannot find : Capabilities {browserName: chrome, platform: WINDOWS, version: }
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-VE62NKE&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: driver.version: unknown</p>
+org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
+<br/>at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+<br/>at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+<br/>at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+<br/>at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+<br/>at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+<br/>at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+<br/>at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+<br/>at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+<br/>at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+<br/>at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+<br/>at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+<br/>at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+<br/>at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+<br/>at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+<br/>at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+<br/>at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+<br/>at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+<br/>at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+<br/>at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+<br/>at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+<br/>at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+<br/>at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+<br/>at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+<br/>at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+<br/>at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+<br/>at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+<br/>at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+<br/>at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+<br/>at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+<br/>at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+<br/>at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+<br/>at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+<br/>at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+<br/>at java.lang.Thread.run(Thread.java:748)
+<br/>1 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

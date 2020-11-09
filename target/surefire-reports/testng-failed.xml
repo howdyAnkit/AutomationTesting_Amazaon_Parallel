@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Test Grid]" parallel="none">
+  <test name="Test Node1(failed)" parallel="none">
+    <classes>
+      <class name="Academy.Node1">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Academy.Node1 -->
+    </classes>
+  </test> <!-- Test Node1(failed) -->
+</suite> <!-- Failed suite [Test Grid] -->

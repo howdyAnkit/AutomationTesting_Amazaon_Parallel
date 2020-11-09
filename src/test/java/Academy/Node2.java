@@ -17,7 +17,7 @@ public class Node2 {
 		String nodeUrl;
 	  
 	  try {
-			nodeUrl = "http://192.168.0.100:4444/wd/hub";
+			nodeUrl = "http://<your AWS ID>/wd/hub";	//Enter your AWS ID to run into GRID or you can enter your local port number of GRID
 			
 			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 			capabilities.setBrowserName("chrome");

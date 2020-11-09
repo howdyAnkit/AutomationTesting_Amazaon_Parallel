@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.641 s - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.503 s <<< FAILURE! - in TestSuite
+f(Academy.Node1)  Time elapsed: 1.293 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Error forwarding the new session cannot find : Capabilities {browserName: chrome, platform: WINDOWS, version: }
+Command duration or timeout: 612 milliseconds
+	at Academy.Node1.f(Node1.java:26)
+Caused by: org.openqa.selenium.WebDriverException: 
+Error forwarding the new session cannot find : Capabilities {browserName: chrome, platform: WINDOWS, version: }
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-VE62NKE', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+

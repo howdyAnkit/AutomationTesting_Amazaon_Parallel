@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.641" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.503" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_261\jre\bin"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Users\Ankit\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp;C:\Python27\;C:\Python27\Scripts;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\Ankit\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.5.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Java\jdk1.8.0_261\bin;D:\Dev_Programs\apache-maven-3.6.3\bin;C:\Users\Ankit\apache-maven-3.6.3\bin;C:\Users\Ankit\apache-maven-3.6.3\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Ankit\.windows-build-tools\python27\;C:\Users\Ankit\AppData\Local\Microsoft\WindowsApps;C:\Users\Ankit\AppData\Local\Programs\Microsoft VS Code\bin;D:\programming\software\xampp\php;C:\Users\Ankit\AppData\Local\hyper\app-3.0.2\resources\bin;D:\programming\PROJECTS\mailChimp\node_modules;C:\Users\Ankit\AppData\Local\Microsoft\WindowsApps;D:\programming\software\sqlite-tools-win32-x86-3320200;C:\Users\Ankit\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\heroku\bin;D:\gkg\geckodriver-v0.27.0-win64;C:\Users\Ankit\AppData\Local\Yarn\bin;."/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\Ankit\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.5.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Java\jdk1.8.0_261\bin;D:\Dev_Programs\apache-maven-3.6.3\bin;C:\Users\Ankit\apache-maven-3.6.3\bin;C:\Users\Ankit\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Ankit\.windows-build-tools\python27\;C:\Users\Ankit\AppData\Local\Microsoft\WindowsApps;C:\Users\Ankit\AppData\Local\Programs\Microsoft VS Code\bin;D:\programming\software\xampp\php;C:\Users\Ankit\AppData\Local\hyper\app-3.0.2\resources\bin;D:\programming\PROJECTS\mailChimp\node_modules;C:\Users\Ankit\AppData\Local\Microsoft\WindowsApps;D:\programming\software\sqlite-tools-win32-x86-3320200;C:\Users\Ankit\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\heroku\bin;D:\gkg\geckodriver-v0.27.0-win64;C:\Users\Ankit\AppData\Local\Yarn\bin;."/>
     <property name="maven.conf" value="C:\Users\Ankit\apache-maven-3.6.3\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_261\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,5 +64,29 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="f" classname="Academy.Node1" time="14.693"/>
+  <testcase name="f" classname="Academy.Node1" time="1.293">
+    <failure message="Error forwarding the new session cannot find : Capabilities {browserName: chrome, platform: WINDOWS, version: }&#10;Command duration or timeout: 612 milliseconds" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Error forwarding the new session cannot find : Capabilities {browserName: chrome, platform: WINDOWS, version: }
+Command duration or timeout: 612 milliseconds
+	at Academy.Node1.f(Node1.java:26)
+Caused by: org.openqa.selenium.WebDriverException: 
+Error forwarding the new session cannot find : Capabilities {browserName: chrome, platform: WINDOWS, version: }
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-VE62NKE', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+</failure>
+    <system-out><![CDATA[[TestRunner] Running the tests in 'Test Node1' with parallel mode:none
+[RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@1e9807f priority: 10
+[TestClass] Creating TestClass for [ClassImpl class=Academy.Node1]
+[TestClass] Adding method Node1.f()[pri:0, instance:null] on TestClass class Academy.Node1
+[XmlMethodSelector] Including method Academy.f()
+[SuiteRunner] Created 1 TestRunners
+[TestRunner] Running test Test Node1 on 1  classes,  included groups:[] excluded groups:[]
+===== Test class
+Academy.Node1
+    @Test Node1.f()[pri:0, instance:Academy.Node1@106ebcb]
+======
+[Invoker 9786725] Invoking Academy.Node1.f
+]]></system-out>
+  </testcase>
 </testsuite>

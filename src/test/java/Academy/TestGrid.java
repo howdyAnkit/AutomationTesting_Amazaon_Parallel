@@ -17,7 +17,7 @@ public class TestGrid {
 	
 	public static void main(String[] args) {
 		try {
-			nodeUrl = "http://192.168.0.100:13580/wd/hub";
+			nodeUrl = "http://3.139.89.120:13580/wd/hub";
 			
 			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 			capabilities.setBrowserName("chrome");
